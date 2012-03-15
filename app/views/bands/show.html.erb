@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @band.nombre %>
+</p>
+
+<p>
+  <b>Genero:</b>
+  <%= @band.genero %>
+</p>
+
+
+<%= link_to 'Edit', edit_band_path(@band) %> |
+<%= link_to 'Back', bands_path %>
