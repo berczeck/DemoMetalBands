@@ -5,6 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Band.create(nombre: 'Metallica',genero: 'Thrash')
-Band.create(nombre: 'Iron Maiden',genero: 'Heavy')
-Band.create(nombre: 'Helloween',genero: 'Power')
+z = Band.create(nombre: 'Metallica',genero: 'Thrash')
+x = Band.create(nombre: 'Iron Maiden',genero: 'Heavy')
+y = Band.create(nombre: 'Helloween',genero: 'Power')
+Disc.create(nombre:'Kill em all', anio:'1983', band:z)
+Disc.create(nombre:'Master of puppets', anio:'1986', band:z)
+Disc.create(nombre:'The numer of the beast', anio:'1982', band:x)

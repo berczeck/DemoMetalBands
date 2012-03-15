@@ -1,4 +1,6 @@
 DemoMetalBands::Application.routes.draw do
+  resources :discs
+
   resources :bands
 
   # The priority is based upon order of creation:
